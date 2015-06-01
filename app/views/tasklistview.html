@@ -1,0 +1,27 @@
+  <div ng-show="contentShow" class="col-lg-12 enterpriselistview ng-scope"  ng-repeat="i in tasklistData.EnterpriseTaskList">
+                <div class="col-lg-11.col-lg-offset-1 selected_enterpriselist_box myButton"   id="button" ng-click="detailsContent(i)">
+                    <div class="col-lg-2">
+                        <img ng-src="images/{{i.imageName}}.png" class="img-circle" />
+                    </div>
+                    <div class="col-lg-10 selected_enterpriselist_rightnav">
+                        <div class="enterpriselist_desc_header col-lg-9" data-ng-bind="i.nameheading"></div>
+                        <div class="selected_enterpriselist_detailtextbottom col-lg-3">
+                            <span data-ng-bind="i.lasttime"></span>
+                        </div>
+                        <p class="clearfix">
+                        </p>
+                        <div class="selected_enterpriselist_detailtexttop">
+                            <div class="col-lg-9">
+                                <span class="col-lg-3">Status:</span>
+                                <span class="col-lg-9 pull-left" data-ng-bind="i.Status"></span></div>
+                        </div>
+                        <p class="clearfix">
+                        </p>
+                        <div class="selected_enterpriselist_detailtextbottom">
+                            <span class="col-lg-9" data-ng-bind="i.duetime"></span><span class="col-lg-3"><i class="fa fa-tag"></i><i class="fa fa-tag"></i><i class="fa fa-tag"></i></span></div>
+                    </div>
+                </div>
+                <p class="clearfix">
+                </p>
+                
+            </div>

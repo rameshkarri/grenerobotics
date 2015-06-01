@@ -1,0 +1,14 @@
+   {
+	"usersList" : [{
+			"phonenumber": "8985920823",
+			"password": "998877",
+			"role": "admin",
+			"roleName": "Admin"
+		},
+		{
+			"phonenumber": "9030523508",
+			"password": "665544",
+			"role": "admin",
+			"roleName": "Admin"
+		}]
+}

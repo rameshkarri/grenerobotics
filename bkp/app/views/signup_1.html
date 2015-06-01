@@ -1,0 +1,35 @@
+<div class="signupform text-center col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+    <div align="center" class="ng-scope">
+        <img class="img-responsive" alt="Responsive Image" src="images/logo.png">
+        <span class="text-center signup-form-text col-lg-8 col-lg-offset-2">Please Confirm Your Country Code and enter your phone number</span>
+        <p class="clearfix" />
+        <form ng-submit="loginCheck()" class="ng-pristine ng-valid">
+            <div class="country">
+                <div class="form-group col-lg-12">
+                    <select id="" class="form-control">
+                        <option>India</option>
+                    </select>
+                </div>
+            </div>
+            <div class="phnumber row">
+                <div class="form-group  col-lg-12">
+                    <div class="col-lg-2">
+                        <input type="text" class="form-control ng-pristine ng-invalid ng-invalid-required ng-touched" ng-model="code" value="+91" placeholder="+91" required="" style="" disabled>
+                    </div>
+                    <div class="col-lg-10">
+                        <input type="number" class="form-control ng-pristine ng-invalid ng-invalid-required ng-touched" ng-model="phnumber" placeholder="Phone Number" max-length="10" required="" style="">
+                    </div>
+                </div>
+                <div class="form-group col-lg-12">
+                    <div class="col-lg-12">
+                        <button type="submit" ng-click="gotoStep2()" class="btn btn-primary btn-lg  btn-block">Continue</button>
+                    </div>
+                </div>
+                <span class="text-center signup-form-condition-text col-lg-10 col-lg-offset-1 text-center">Continueing means you've read and agreed to our <a>Terms of Services</a> and <a>Privacy Policy</a></span>
+                <p class="clearfix" />
+                <br/>
+                <span class="text-center signup-form-condition-text col-lg-12 text-center"><i>Lets Connect Collaborate &#38; Conqure</i></span>
+                <div class="row"><img src="images/apple_icon.png" class="img-icon"> <img src="images/android_icon.png" class="img-icon"><img src="images/windows_icon.png" class="img-icon"></div>
+        </form>
+        </div>
+    </div>

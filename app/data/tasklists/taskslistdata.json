@@ -1,0 +1,112 @@
+{
+    "EnterpriseTaskList": [{
+            "imageName": "michael",
+            "nameheading": "This is the final screen of our email builder",
+            "Status": "In Progress",
+             "lasttime": "2 Hour(s) ago",
+            "duetime": "5 Hours",
+            "JohnName": "John Smith",
+              "MichName": "Michael Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "john",
+             "imageNamenaina": "naina",
+            "chatimgName":"chatimg",
+             "chatlasttime": "2 Hour(s) ago",
+             "chatmsg":"Hi Folks"
+           
+        }, {
+            "imageName": "john",
+            "nameheading": "I cannot edit task titles of my own tasks",
+            "Status": "Critical",
+            "duetime": "6 Hours",
+            "lasttime": "5 Hour(s) ago",
+             "JohnName": "John Smith",
+              "MichName": "Michael Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "michael",
+             "imageNamenaina": "criss",
+              "chatimgName":"chatimg",
+             "chatmsg":"Hi Folks"
+        }, {
+            "imageName": "naina",
+            "nameheading": "Make task and phase titles availble as variables",
+            "Status": "Completed",
+            "duetime": "5 Hours",
+            "lasttime": "2 Hour(s) ago",
+            "JohnName": "John Smith",
+              "MichName": "Michael Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "john",
+             "imageNamenaina": "coria",
+              "chatimgName":"chatimg",
+             "chatmsg":"Hi Guys"
+        }, {
+            "imageName": "coria",
+            "nameheading": "I cannot edit task titles of my own tasks",
+            "Status": "Critical",
+            "duetime": "5 Hours",
+            "lasttime": "3 Hour(s) ago",
+             "chatimgName":"chatimg",
+             "JohnName": "John Smith",
+              "MichName": "Coria Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "john",
+             "imageNamenaina": "criss",
+             "chatmsg":"Hi Folks"
+
+        }, {
+            "imageName": "criss",
+            "nameheading": "Make task and phase titles availble as variables",
+            "Status": "Completed",
+            "duetime": "5 Hours",
+            "lasttime": "4 Hour(s) ago",
+             "chatimgName":"chatimg",
+              "JohnName": "John Smith",
+              "MichName": "Criss Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "michael",
+             "imageNamenaina": "coria",
+             "chatmsg":"Hi Folks"
+        }, {
+            "imageName": "michael",
+            "nameheading": "This is the final screen of our email builder",
+            "Status": "Completed",
+            "duetime": "7 Hours",
+            "lasttime": "2 Hour(s) ago",
+             "chatimgName":"chatimg",
+            "JohnName": "John Smith",
+              "MichName": "Michael Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "john",
+             "imageNamenaina": "naina",
+             "chatmsg":"Hi Folks"
+        },{
+            "imageName": "john",
+            "nameheading": "I cannot edit task titles of my own tasks",
+            "Status": "Critical",
+            "duetime": "6 Hours",
+            "lasttime": "5 Hour(s) ago",
+             "chatimgName":"chatimg",
+             "JohnName": "John Smith",
+              "MichName": "Michael Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "michael",
+             "imageNamenaina": "naina",
+             "chatmsg":"Hi Folks"
+        }, {
+            "imageName": "naina",
+            "nameheading": "Make task and phase titles availble as variables",
+            "Status": "Completed",
+            "duetime": "5 Hours",
+            "lasttime": "2 Hour(s) ago",
+           "JohnName": "John Smith",
+              "MichName": "Michael Smith",
+              "NainaName": "Naina Gosh",
+             "imageNamejohn": "john",
+             "imageNamenaina": "coria",
+             "chatimgName":"chatimg",
+             "chatmsg":"Hi Guys"
+        }
+
+    ]
+}

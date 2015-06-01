@@ -1,0 +1,90 @@
+<div class="tasklistview row">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 leftnav-view pull-left">
+        <div class="header-nav row "><img class="img-heagerlogo" src="images/logo.png"></div>
+        <p class="clearfix" />
+        <ul class="list-unstyled"><b>ACCOUNTS</b>
+            <li ng-click="contentShow=true"><a class="active">Enterprise</a></li>
+            <li><a>Personal</a><span class="badge col-xs-2 pull-right">10</span></li>
+        </ul>
+        <ul class="list-unstyled"><b>MY PREFERENCES</b>
+            <li><a>Mystatus</a></li>
+            <li><a>Settings</a></li>
+            <li><a>Outbox</a></li>
+        </ul>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8 rightnav-view ">
+        <div class="rightnav row">
+            <div class="col-lg-3 col-lg-offset-9 col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8  pull-right signedUser"><span class="col-lg-6">Michel Smith</span>
+                <img class="img-circle img-signeduser" src="images/michael.png"></div>
+            <div class="row">
+                <h3 class="col-lg-4">Enterprise task list</h3>
+                <form><span class="col-lg-4">
+                            <select class="selectpicker">
+                                <option>Search by Filters</option>
+                                <option>Ketchup</option>
+                                <option>Relish</option>
+                            </select>
+                        </span></form>
+                <form>
+                    <span class="col-lg-4"><input type="text" class="search rounded" placeholder="Search"></span>
+                </form>
+            </div>
+            <tasklistview></tasklistview>
+            <div ng-show="detailsContentShow" class="enterpriselistdetailsview ng-scope">
+                <div class="col-lg-6.col-lg-offset-1 selected_enterpriselistdetails_box">
+                    <div class="col-lg-2">
+                        <img ng-src="images/{{detaildata.imageName}}.png" class="img-circle" />
+                    </div>
+                </div>
+                <div class="col-lg-10 selected_enterpriselist_rightnav">
+                    <div class="enterpriselist_desc_header col-lg-9" data-ng-bind="detaildata.nameheading"></div> <span class="col-lg-3"><img class="fa-icon" src="images/adduser.png"/></span><p class="clearfix"/>
+                    <div class="selected_enterpriselist_detailtexttop">
+                        <div class="col-lg-9">
+                            <span class="col-lg-3">Status:</span>
+                            <div class="practice-operational-team-designation" data-ng-bind="detaildata.Status"></div>
+                            <span class="col-lg-9 pull-left"></span></div>
+                    </div>
+                </div>
+                <div class="update-textform col-lg-8">
+                    <textarea type="text" class="form-control" id="user" placeholder="Whats your update?"></textarea>
+                    <p class="clearfix" />
+                    <span class="col-lg-3"><i class="fa fa-camera fa-icon"></i><i class="fa fa-dropbox fa-icon"></i></span>
+                    <div class="col-lg-offset-8 col-lg-1">
+                        <button type="button" class="btn btn-primary btn-xs">Send</button>
+                    </div>
+                </div>
+                <p class="clearfix" />
+                <div class="chat-history">
+                    <div class="col-lg-6.col-lg-offset-1 selected_enterpriselistchatdetails_box" >
+                        <div class="col-lg-2">
+                            <img ng-src="images/{{detaildata.imageName}}.png" class="img-circle col-xs-12" />
+                        </div>
+                        <div class="col-lg-10">
+                            <b><span data-ng-bind="detaildata.MichName"></span></b>&nbsp;<span> added a <b>Comment</b></span>
+                             <span class="col-lg-3 pull-right" data-ng-bind="detaildata.chatlasttime">
+                        </div>
+                        <div class="chatitembox col-lg-4 col-lg-offset-2" data-ng-bind="detaildata.chatmsg"></div>
+                        <p class="clearfix"/>
+                        <div class="col-lg-2">
+                            <img ng-src="images/{{detaildata.imageNamejohn}}.png" class="img-circle col-xs-12" />
+                        </div>
+                        <div class="col-lg-10">
+                            <b><span data-ng-bind="detaildata.JohnName"></span></b>&nbsp;<span> added a <b>Comment</b></span>
+                             <span class="col-lg-3 pull-right" data-ng-bind="detaildata.chatlasttime">
+                        </div>
+                        <div class="chatitembox col-lg-4 col-lg-offset-2"><img ng-src="images/{{detaildata.chatimgName}}.png" class=" col-xs-12" /></div>
+                        <p class="clearfix"/>
+                        <div class="col-lg-2">
+                            <img ng-src="images/{{detaildata.imageNamenaina}}.png" class="img-circle col-xs-12" />
+                        </div>
+                        <div class="col-lg-10">
+                            <b><span data-ng-bind="detaildata.NainaName"></span></b>&nbsp;<span> added a <b>Comment</b></span>
+                             <span class="col-lg-3 pull-right" data-ng-bind="detaildata.chatlasttime">
+                        </div>
+                          <div class="chatitembox col-lg-4 col-lg-offset-2" data-ng-bind="detaildata.chatmsg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
