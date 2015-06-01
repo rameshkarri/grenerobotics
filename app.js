@@ -3,13 +3,7 @@ angular.module('greenRobotics', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAni
 angular.module('greenRobotics').config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider.state("dashboard", {
-        /* views: {
-             "": {
-                 url: '/signup',
-                 templateUrl: "app/views/signup_1.html"
 
-             }
-         }*/
     });
     $stateProvider.state("signup", {
         url: '/signup',
@@ -50,25 +44,12 @@ angular.module('greenRobotics').config(function($stateProvider, $urlRouterProvid
                     $scope.detailsContentShow = true;
                     $scope.detaildata = data;
 
-                }
+                };
             });
-            /**/
-           
-
         }
 
     });
-    /* $stateProvider.state("enterpriselistdetailsview", {
-         views: {
-             "": {
-                 url: '/enterpriselistdetails',
-                 templateUrl: "app/views/enterpriselistdetails.html",
-                 controller: function($scope) {
 
-                 }
-             }
-         }
-     });*/
     /* Add New States Above */
     $urlRouterProvider.otherwise('/home');
 

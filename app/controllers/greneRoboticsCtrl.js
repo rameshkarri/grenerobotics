@@ -4,10 +4,4 @@ angular.module('greenRobotics').controller('greneRoboticsCtrl', ['$scope', '$sta
     $scope.detailsContentShow = false;
     $scope.contentShow = false;
 
-    /*$scope.detailsContent = function() {
-    	alert('test');
-        $scope.detailsContentShow = true;
-
-    };
-*/
 }]);
